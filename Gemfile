@@ -61,3 +61,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+# My Custom Gems
+gem 'devise'
+gem 'brypt' # prereq of devise
