@@ -64,4 +64,4 @@ end
 
 # My Custom Gems
 gem 'devise'
-gem 'brypt' # prereq of devise
+gem 'bcrypt' # prereq of devise
