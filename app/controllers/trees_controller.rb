@@ -1,6 +1,6 @@
 class TreesController < ApplicationController
-  before_action :set_tree, only: %i[ show edit update destroy ]
-  before_action :authenticate_user!
+  before_action :set_tree, only: %i[ show edit update destroy ] #only show edit update destroy is executed by method set_tree
+  before_action :authenticate_user!, only: %i[ new edit update destroy ] #only new edit update destroy is executed by method authenticate_user
 
   # GET /trees or /trees.json
   def index
