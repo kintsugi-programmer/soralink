@@ -99,7 +99,7 @@ Puma starting in single mode...
 Use Ctrl-C to stop
 
 ```
-![alt text](image.png)
+![alt text](/readmeimg/image.png)
 
 ## Create First Page
 
